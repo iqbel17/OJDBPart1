@@ -13,7 +13,7 @@ import java.util.List;
  * @author iqbael17
  */
 public interface EmployeeIntefaceDAO {
-      public boolean insert(Employee employee);
+    public boolean insert(Employee employee);
     public boolean update(Employee employee);
     public boolean delete(int id);
     public List<Employee> getAll();

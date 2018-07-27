@@ -105,7 +105,7 @@ public class RegionDAO implements RegionInterfaceDAO {
             while (rs.next()) {
                 Region region = new Region();
                 region.setRegionId(rs.getInt(1));
-                region.setRegionName(rs.getString("region_name"));
+                region.setRegionName(rs.getString(2));
                 datas.add(region);
             }
 

@@ -15,7 +15,7 @@ public class Department {
     private int departmentId;
     private String departmentName;
     private int managerId;
-    private int locationId;
+    private Location locationId;
 
     /**
      * @return the departmentId
@@ -59,17 +59,16 @@ public class Department {
         this.managerId = managerId;
     }
 
-    /**
-     * @return the locationId
-     */
-    public int getLocationId() {
+    public Location getLocationId() {
         return locationId;
     }
 
-    /**
-     * @param locationId the locationId to set
-     */
-    public void setLocationId(int locationId) {
+    public void setLocationId(Location locationId) {
         this.locationId = locationId;
     }
+
+    /**
+     * @return the locationId
+     */
+    
 }

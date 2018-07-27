@@ -12,7 +12,7 @@ package entities;
 public class Countrie {
     private String countryId;
     private String countryName;
-    private int regionId;    
+    private Region regionId;    
 
     /**
      * @return the countryId
@@ -42,17 +42,16 @@ public class Countrie {
         this.countryName = countryName;
     }
 
-    /**
-     * @return the regionId
-     */
-    public int getRegionId() {
+    public Region getRegionId() {
         return regionId;
     }
 
-    /**
-     * @param regionId the regionId to set
-     */
-    public void setRegionId(int regionId) {
+    public void setRegionId(Region regionId) {
         this.regionId = regionId;
     }
+
+    /**
+     * @return the regionId
+     */
+  
 }
